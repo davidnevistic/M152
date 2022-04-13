@@ -1,0 +1,26 @@
+div.person {
+  margin: auto;
+  padding-top: 0.5em;
+  width: 20%;
+  text-align: center;
+  background-color: rgba(180, 168, 168, 0.8);
+  box-shadow: #6a676b 1px 1px;
+}
+div.person img {
+  border-radius: 50%;
+}
+div.person .title {
+  margin-top: 2em;
+  font-weight: bold;
+}
+div.person .text {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+div.person button {
+  background-color: rgb(2, 37, 194);
+  border-radius: 0.5em;
+  width: 90%;
+  margin-bottom: 1em;
+}/*# sourceMappingURL=index.css.map */

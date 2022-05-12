@@ -1,13 +1,9 @@
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   max-width: 800px;
   margin: 0 auto;
 }
-
 .container .wrapper {
   width: 50%;
 }
@@ -20,28 +16,22 @@ img {
   margin: 10px;
   border: 1px solid grey;
   border-radius: 4px;
-  background-color: #c4c3c3;
-  -webkit-box-shadow: #9e9e9e 1px 1px;
-          box-shadow: #9e9e9e 1px 1px;
+  background-color: rgb(196, 195, 195);
+  box-shadow: rgb(158, 158, 158) 1px 1px;
 }
-
 .person .image {
   padding: 10px;
 }
-
 .person .image img {
   border-radius: 50%;
 }
-
 .person .text {
   text-align: center;
   padding: 30px 10px;
 }
-
 .person .link {
   padding: 10px;
 }
-
 .person .link a.button {
   background-color: blue;
   border: 4px;
@@ -53,6 +43,5 @@ img {
 }
 
 * {
-  font-family: 'Square Peg', cursive;
-}
-/*# sourceMappingURL=Index.css.map */
+  font-family: "Square Peg", cursive;
+}/*# sourceMappingURL=Index.css.map */
